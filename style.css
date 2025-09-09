@@ -1,0 +1,162 @@
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* Хедер */
+/* Головна сторінка */
+.container {
+    background-color: #f7f7f7;
+    padding: 30px 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    font-size: 20px;
+}
+.hero-img {
+    margin: 30px auto;
+    display: block;
+    height: 500px;
+}
+/* сторінка про кішок */
+main {
+    background-color: #fdd875;
+    padding: 80px 0;
+}
+.cat-container {
+    background-color: #f7f7f7;
+    padding: 30px 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    font-size: 20px;
+}
+.cat-title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cat-list {
+    margin-top: 30px;
+}
+.cat-img {
+    margin: 30px auto;
+    display: block;
+}
+/* Сторінка про собак */
+.dog-container {
+    background-color: #f7f7f7;
+    padding: 30px 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    font-size: 20px;
+}
+.title {
+    text-align: center;
+}
+.dog-text {
+    margin-top: 30px;
+}
+.dog-img {
+    margin: 30px auto;
+    display: block;
+}
+/* Сторінка про навчання */
+.stady-container {
+ background-color: #f7f7f7;
+    padding: 30px 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    font-size: 20px;
+}
+.stady-title {
+    text-align: center;
+}
+.stady-img {
+    margin: 30px auto;
+    display: block;
+    width: 800px;
+}
+.stady-text {
+    margin-bottom: 30px;
+}
+.stady-list {
+    margin-left: 30px;
+    list-style: square;
+    margin-bottom: 30px;
+}
+/* Сторінка контакти */
+.contacts-container {
+    background-color: #f7f7f7;
+    padding: 30px 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    font-size: 20px;
+}
+.contacts-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contacts-link {
+    color: #aa43a2;
+    font-weight: 700;
+}
+.contacts-img {
+    border: 1px solid grey;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+}
+/* Сторінка про футбол */
+.footbal-container {
+    background-color: #f7f7f7;
+    padding: 30px 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    font-size: 20px;
+}
+.footbal-title {
+    text-align: center;
+}
+/* Сторінка про годування котів */
+.feed-container {
+    background-color: #f7f7f7;
+    padding: 30px 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    font-size: 20px;
+}
+.feed-img {
+    height: 500px;
+}
+/* Сторінка про годування собак */
+.dogfood-container {
+     background-color: #f7f7f7;
+    padding: 30px 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    font-size: 20px;
+}
+.dogfood-img {
+    height: 500px;
+}
